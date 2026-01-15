@@ -7,6 +7,11 @@
     font-weight: 400;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* share style  */
 
@@ -41,7 +46,7 @@
     border: none;
 }
 
-main {
+main, footer {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -221,6 +226,18 @@ main>section {
 #feature-section-title {
     border-left: 5px solid #FF900E;
     padding-left: 20px;
+}
+
+/* footer section relate style  */
+
+footer> div {
+    text-align: center;
+    padding: 40px 0px;
+    margin-top: 130px;
+}
+
+footer p {
+    font-size: 1.25rem;
 }
 
 /* responsive media query  */
